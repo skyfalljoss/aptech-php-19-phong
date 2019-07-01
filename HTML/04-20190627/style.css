@@ -1,0 +1,9 @@
+.border-custom{
+    border-bottom: 3px  solid white;
+}
+li:hover{
+    border-bottom:3px solid gray;
+}
+a{
+    text-decoration: none;
+}

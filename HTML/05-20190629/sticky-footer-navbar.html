@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap.css">
+    <link rel="stylesheet" href="/sticky-footer-navbar.css">
+
+</head>
+<body>
+    <div class="container-fluid bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <a  class="navbar-brand" href="#" >Fixed Narvbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="navbar-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-onlt"(current)></span></a>
+                    </li>
+                    <li class="navbar-item">
+                        <a  class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a  class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0">Search</button>
+                </form>
+            </div>
+            
+        </nav>
+        
+    </div>
+    <div class="container pt-60">
+        <div class="row">
+            <div class="col-8 ">
+                <h1>Sticky footer with fixed navbar</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10">
+                <p> Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with<span class="text-danger">padding-top: 60px;</span> on the <span class="text-danger">main > .container</span>.</p>
+                <p>Back to <a href="https://getbootstrap.com/docs/4.3/examples/sticky-footer/">the default sticky footer</a>  minus the navbar.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid fixed-bottom bg-light">
+        <div class="row d-flex align-items-center h-50px">
+            <div class="col-6 offset-2">
+                    <p class="text-muted">
+                            Place sticky footer content here.
+                </p>
+            </div>
+        </div>  
+    </div>
+    
+</body>
+</html>
