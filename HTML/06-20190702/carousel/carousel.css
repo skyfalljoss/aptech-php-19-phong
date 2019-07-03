@@ -1,0 +1,19 @@
+.f-size-125rem{
+    font-size: 1.25rem;
+}
+.photo{
+    height: 140px;
+    width: 140px;   
+    background-color: #5a5a5a;
+}
+.height-150{
+    height: 150px;
+}
+.photo-500{
+    height: 370px;
+    width: 370px;   
+    background-color: rgb(238, 238, 238);
+}
+.img-500{
+    font-size:70px; 
+}
