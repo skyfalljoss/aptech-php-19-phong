@@ -1,0 +1,27 @@
+.container .row .col-4 .f-family {
+  font-family: 'DM Serif Text', serif;
+  font-family: 'DM Serif Display', serif;
+}
+
+h1 {
+  font-family: 'DM Serif Text', serif;
+  font-family: 'DM Serif Display', serif;
+}
+
+.container .row .col-4 h2 {
+  font-family: 'DM Serif Text', serif;
+  font-family: 'DM Serif Display', serif;
+}
+
+@media (max-width: 768px) {
+  .container .row .col-12 .card .col-auto {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .container .row .col-md-6 .card .col-auto {
+    display: none;
+  }
+}
+/*# sourceMappingURL=blog.css.map */

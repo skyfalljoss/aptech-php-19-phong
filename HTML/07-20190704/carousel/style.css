@@ -1,0 +1,24 @@
+.container-fluid .row .f-size-125rem {
+  font-size: 1.25rem;
+}
+
+.container .row .col-4 .photo {
+  height: 140px;
+  width: 140px;
+  background-color: #5a5a5a;
+}
+
+.container .row .col-4 .height-150 {
+  height: 150px;
+}
+
+.container .row .col-5 .photo-500 {
+  height: 370px;
+  width: 370px;
+  background-color: #eeeeee;
+}
+
+.container .row .col-5 .photo-500 .img-500 {
+  font-size: 70px;
+}
+/*# sourceMappingURL=style.css.map */

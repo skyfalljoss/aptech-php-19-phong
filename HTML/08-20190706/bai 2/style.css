@@ -1,0 +1,36 @@
+.row {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.row--col-1 {
+  width: 50%;
+  height: 50%;
+  background-color: yellow;
+}
+
+.row--col-2 {
+  width: 50%;
+  height: 50%;
+  background-color: red;
+}
+
+@media (max-width: 768px) {
+  .row {
+    height: 100px;
+    display: block;
+  }
+  .row--col-1 {
+    width: 100%;
+    height: 50%;
+    background-color: yellow;
+  }
+  .row--col-2 {
+    width: 100%;
+    height: 50%;
+    background-color: red;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,38 @@
+.row {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.row--col-1 {
+  height: 50%;
+  width: 33.33%;
+  background-color: green;
+}
+
+.row--col-2 {
+  height: 50%;
+  width: 33.33%;
+  background-color: white;
+}
+
+.row--col-3 {
+  height: 50%;
+  width: 33.33%;
+  background-color: red;
+}
+
+@media only screen and (max-width: 768px) {
+  .row--col-1 {
+    height: 50%;
+    width: 33.33%;
+    background-color: red;
+  }
+  .row--col-3 {
+    height: 50%;
+    width: 33.33%;
+    background-color: green;
+  }
+}
+/*# sourceMappingURL=style1.css.map */
