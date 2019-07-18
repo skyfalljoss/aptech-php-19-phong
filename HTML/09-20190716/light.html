@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>  
+    <img src="./" alt="">
+    
+    <img  id="den"src="./pic_bulboff.gif" alt="the light off">   
+    <button onclick="tat()"id="tat" style="display: none">Turn off the light</button>
+    <button onclick="bat()" id="bat" style="display: block">Turn on the light</button>
+    <!-- <button onclick="bat_tat()">Turn on/off the light</button> -->
+    <script>
+        function bat(){
+            document.getElementById("den").src='./pic_bulbon.gif';
+            document.getElementById("bat").style.display="none";
+            document.getElementById("tat").style.display="block";
+        }
+        function tat(){
+            document.getElementById("den").src='./pic_bulboff.gif';
+            document.getElementById("tat").style.display="none"
+            document.getElementById("bat").style.display="block"
+
+        }
+        var a=document.getElementById("den");
+        function bat_tat(){
+            
+        }
+    </script>
+</body>
+</html>
