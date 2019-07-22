@@ -26,7 +26,7 @@ var data = {
       }
     ]
 };
-var bang=document.createElement("table.tb");
+var bang=document.createElement("table");
 function create_Table(){
 
     var row=document.createElement("tr");
@@ -35,6 +35,9 @@ function create_Table(){
             var col=document.createElement("th");
             var info=document.createTextNode("id");
             col.appendChild(info);
+
+            // document.body.div.table.tr.insertBefore(col,document.body.childNodes[0]);
+
             row.appendChild(col);
         }
         if(k=2){

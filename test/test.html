@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#myDIV {
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+</style>
+</head>
+<body>
+
+<p>Click the button to create a P element with some text, and append it to DIV.</p>
+
+<div id="show">
+A DIV element
+</div>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+var bang=document.createElement("table");
+var a=['a','b','c'];
+
+function myFunction() {
+    var vung= document.getElementById("show");
+    var bang = document.createElement("table");
+    var a={
+        "b":[{"id":"k","name":"a","date":"11"},{"id":"k","name":"b","date":"11"},{"id":"k","name":"b","date":"11"}]
+    };
+           
+        for(var i=0; i< 3; i++)
+            {
+                var dong= document.createElement("tr");
+                for(var j=0; j<3;j++)
+                {
+                    var cott= document.createElement("td");
+                    if(j=1){
+                        var text=document.createTextNode(a.b[i].id+" "); 
+                        cott.appendChild(text);  
+                    }
+                    if(j=2){
+                        var text=document.createTextNode(a.b[i].name+" "); 
+                        cott.appendChild(text);  
+                    }
+                    if(j=3){
+                        var text=document.createTextNode(a.b[i].date+" "); 
+                        cott.appendChild(text);  
+                    }
+                    
+                    dong.appendChild(cott);
+                }
+                bang.appendChild(dong);
+            }
+            document.getElementById("show").appendChild(bang);
+    
+}
+</script>
+
+</body>
+</html>

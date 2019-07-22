@@ -5,16 +5,43 @@
     <link rel="stylesheet" href="/bootstrap.css">
     <link rel="stylesheet" href="/album.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
 </head>
 <body class="vh-100">
+    <div class="container-fluid bg-dark collapse-1" style="display: none">
+        <div class="row py-4">
+            <div class="col-6 offset-1 ">
+                <h2 class="text-white">About</h2>
+                <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information
+                </p>
+            </div>
+            <div class="col-4 ">
+                <h2 class= "text-white">Contact</h2>
+                    <a class="text-white "href="#">Follow onTwitter</a>
+                    <br>
+                    <a class="text-white "href="#">Like onFacebook</a>
+                    <br>
+                    <a class="text-white "href="#">Email me</a>       
+            </div>
+        </div>
+    </div>
     <div class="container-fluid bg-dark">
-        <div class="row w-50 d-flex justify-content-center">
-            <nav class="navbar navbar-expand-lg navbar-dark  ">
-                </h3><a href="#" class="navbar-brand font-weight-bolder ">
-                        <i class="fas fa-camera"></i>
-                        Album</a>
-                
-            </nav>
+        <div class="row ">
+            <div class="col-10 offset-1 d-flex justify-content-between">
+                    <nav class="navbar navbar-expand-lg navbar-dark pl-0 ">
+                            <a href="#" class="navbar-brand font-weight-bolder ">
+                                    <i class="fas fa-camera"></i>
+                                    Album
+                            </a>       
+                    </nav>
+                    <div class="boc my-auto">
+                        <div class="soc"></div>
+                        <div class="soc"></div>
+                        <div class="soc"></div>
+                    </div>
+            </div>
+                        
+
         </div>
         
     </div>
@@ -205,5 +232,17 @@
 
         </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <script>
+        $(document).ready(function(){
+            $('.boc').click(function(){
+                $('.collapse-1').toggle();
+                $('.boc').css('border',"1px solid rgb(109, 190, 228)")
+            });
+            $('.container').click(function(){
+                $('.boc').css('border',"1px solid dimgray")
+            });
+        });
+    </script>
 </body>
 </html>
