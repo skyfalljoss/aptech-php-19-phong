@@ -1,0 +1,23 @@
+th,td,table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
+    animation-name: animation;
+    animation-duration: 4s;
+}
+@keyframes animation{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    50%{
+        opacity: 0.5;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
