@@ -1,0 +1,17 @@
+.container .row .photo{
+    background-image: url(./team.jpeg);
+    background-size:cover;
+    width: 30%;
+    height: 300px;
+
+}
+.container .row .photo2{
+    background-image: url(./team1.jpeg);
+    background-size:cover;
+    width: 30%;
+    height: 300px;
+
+}
+.card-img-top-1{
+    height: 300px !important;
+}

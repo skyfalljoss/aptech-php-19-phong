@@ -1,0 +1,38 @@
+.image {
+  background-image: url(./pexels-photo-459522.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.image-4 {
+  background-image: url(./4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container-fluid .image-1 {
+  background-image: url(./pexels-photo-788946.jpeg);
+  background-size: cover;
+  background-position: right, center;
+}
+
+.container-fluid .image-2 {
+  background-image: url(./a2.jpeg);
+  background-size: cover;
+  background-position: right, center;
+}
+
+.container-fluid .image-3 {
+  background-image: url(./a3.jpg);
+  background-size: cover;
+  background-position: right, center;
+}
+
+.container-fluid .row .photo-1 {
+  height: 140px;
+  width: 140px;
+  background-image: url(./photo.jpg);
+  background-size: cover;
+  background-position: right, center;
+}
+/*# sourceMappingURL=style.css.map */

@@ -16,10 +16,12 @@ $(document).ready(function(){
         $("#card"+i).append("<p id='des-"+i+"'>")
         $("#des-"+i).text(a[i].description)
 
-        $("#card"+i).append("<button id='cre-"+i+"'>")
+        $("#card"+i).append("<div id='date-"+i+"'>")
+
+        $("#date-"+i).append("<small id='cre-"+i+"'>")
         $("#cre-"+i).text(a[i].created_at)
 
-        $("#card"+i).append("<button id='upd-"+i+"'>")
+        $("#date-"+i).append("<small id='upd-"+i+"'>")
         $("#upd-"+i).text(a[i].updated_at)
         console.log (i);
         

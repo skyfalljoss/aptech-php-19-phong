@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    .bg-img{
+        height: 500px;
+        background-image: url(./thumb-1920-905475.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .container-fluid{
+        .row-1{
+            background: rgba(28,54,85,.2);
+            .col-2{
+                font-family: 'Fira Code', monospace;
+            }
+            .col-4{
+                .icon{
+                    
+                }
+            }
+        }
+        .row-2{
+            .col-12{
+                font-family: 'Dancing Script', cursive;
+            }
+        }
+    }
+
+    .container-2{
+        .row-3{
+            background-color: #1084B9;
+            .col-2{
+                a{
+                    i{
+                        font-size:20px; 
+                        color: azure;
+                    }
+                }
+            }
+        }
+    }
+
+    .container-3{
+        .row-4{
+            .col-4{
+                .card{
+                    .price{
+                        position: absolute;
+                        top: 10px;
+                        left: 10px;
+                        padding: 10px 15px;
+                        background: #fff;
+                        color: #514d4d;
+                        font-size: 14px;
+                        font-weight: 600;  
+                    }
+                }
+            }
+        }
+    }
+}

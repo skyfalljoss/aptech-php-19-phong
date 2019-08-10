@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body .bg-img {
+  height: 500px;
+  background-image: url(./thumb-1920-905475.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+body .container-fluid .row-1 {
+  background: rgba(28, 54, 85, 0.2);
+}
+
+body .container-fluid .row-1 .col-2 {
+  font-family: 'Fira Code', monospace;
+}
+
+body .container-fluid .row-2 .col-12 {
+  font-family: 'Dancing Script', cursive;
+}
+
+body .container-2 .row-3 {
+  background-color: #1084B9;
+}
+
+body .container-2 .row-3 .col-2 a i {
+  font-size: 20px;
+  color: azure;
+}
+
+body .container-3 .row-4 .col-4 .card .price {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px 15px;
+  background: #fff;
+  color: #514d4d;
+  font-size: 14px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=style.css.map */
