@@ -27,18 +27,22 @@
        /*define ("myName1","Phong123", true);//error
         echo myName1;*/
         
+        //data types
         $str="aa";
         $a=1;
         $b=2;
         $float=1.3;
         $bool=true;
         $arr=[1,"2","ba"];
-        
+
+       //operator 
         echo $str.$a.$b.$float.$bool."<br>";
         echo $arr[1]."<br>";
         echo $a*$b.$a+$b.$a-$b.$b/$a.$a%$b."<br>";
         $c=++$a + $b--;
         $b+=$a;
+
+        //if else
         if($a>$b) {
             echo $a;
         }else echo $b;

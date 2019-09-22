@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* .container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+* .container .row {
+  margin: 10px 0px;
+}
+
+* .container .row .input {
+  margin: 30px 100px;
+}
+/*# sourceMappingURL=style.css.map */
